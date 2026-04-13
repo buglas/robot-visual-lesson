@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- URDF 文件用于描述机器人模型 -->
+<robot name="myfirst">
+  <!-- 机器人由多个链接组成，每个链接代表机器人的一部分 -->
+  <link name="base_link">
+    <!-- 视觉元素定义链接的外观 -->
+    <visual>
+      <!-- 几何形状定义链接的形状 -->
+      <geometry>
+        <!-- 圆柱体：长度 0.6，半径 0.2 -->
+        <cylinder length="0.6" radius="0.2"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
