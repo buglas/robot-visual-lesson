@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@types/three": "^0.183.1",
+    "element-plus": "^2.13.7",
     "three": "^0.183.2",
     "vue": "^3.5.29"
   },
